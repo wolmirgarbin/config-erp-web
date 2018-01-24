@@ -5,6 +5,6 @@ ribbon:
   eureka:
     enabled: true
 
-turbine:
-  aggregator:
-    clusterConfig: CUSTOMERS
+eureka:
+  instance:
+    preferIpAddress: true
