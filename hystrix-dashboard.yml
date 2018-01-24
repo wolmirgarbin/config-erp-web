@@ -1,6 +1,2 @@
 server:
   port: 8760
-
-turbine:
-  aggregator:
-    clusterConfig: CUSTOMERS
