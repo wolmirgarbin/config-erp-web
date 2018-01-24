@@ -1,3 +1,4 @@
+---
 spring:
   profiles: peer1
 eureka:
@@ -6,3 +7,13 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://peer2/eureka/
+
+---
+spring:
+  profiles: peer2
+eureka:
+  instance:
+    hostname: peer2
+  client:
+    serviceUrl:
+      defaultZone: http://peer1/eureka/
