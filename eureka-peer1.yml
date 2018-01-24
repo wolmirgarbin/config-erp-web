@@ -8,7 +8,7 @@ eureka:
     serviceUrl:
       defaultZone: http://peer2/eureka/
 server:
-  port: 8763
+  port: 8761
 
 ---
 spring:
@@ -19,3 +19,5 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://peer1/eureka/
+server:
+  port: 8762
