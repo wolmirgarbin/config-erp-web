@@ -4,9 +4,11 @@ spring:
 eureka:
   instance:
     hostname: peer1
+    preferIpAddress: true
   client:
     serviceUrl:
       defaultZone: http://peer2/eureka/,http://peer3/eureka/
+
 server:
   port: 8761
 
@@ -16,6 +18,7 @@ spring:
 eureka:
   instance:
     hostname: peer2
+    preferIpAddress: true
   client:
     serviceUrl:
       defaultZone: http://peer1/eureka/,http://peer3/eureka/
@@ -28,6 +31,7 @@ spring:
 eureka:
   instance:
     hostname: peer3
+    preferIpAddress: true
   client:
     serviceUrl:
       defaultZone: http://peer1/eureka/,http://peer2/eureka/
