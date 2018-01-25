@@ -1,4 +1,12 @@
-security
-  oauth2
-    resource
-      userInfoUri=http://localhost:8080/auth/realms/master/protocol/openid-connect/userinfo
+security:
+  oauth2:
+    resource:
+      userInfoUri: http://localhost:8080/auth/realms/master/protocol/openid-connect/userinfo
+
+logging:
+  level:
+    org:
+      springframework:
+        security: debug
+        web: debug
+        data: debug
