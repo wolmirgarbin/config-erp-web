@@ -1,10 +1,6 @@
 server:
   port: 8000
     
-management:
-  security:
-    enabled: false
-    
 zuul:
   routes:
     component:
