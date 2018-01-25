@@ -4,5 +4,5 @@ server:
 zuul:
   routes:
     component:
-      path: /teste/**
+      path: /aaaa/**
       serviceId: component
