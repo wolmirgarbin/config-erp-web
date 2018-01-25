@@ -1,9 +1,5 @@
 server:
   port: 8000
-  
-security:
-  basic:
-    enabled: false
     
  zuul:
   routes:
