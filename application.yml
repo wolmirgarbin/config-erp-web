@@ -2,7 +2,11 @@ security:
   oauth2:
     resource:
       userInfoUri: http://localhost:8080/auth/realms/master/protocol/openid-connect/userinfo
-
+      
+management:
+  security:
+    enabled: false      
+    
 logging:
   level:
     org:
