@@ -8,3 +8,7 @@ ribbon:
 eureka:
   instance:
     preferIpAddress: true
+
+feign:
+  hystrix:
+    enabled: true
