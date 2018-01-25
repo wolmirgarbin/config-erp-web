@@ -5,3 +5,8 @@ security:
   basic:
     enabled: false
     
+zuul:
+  routes:
+    component:
+      path: /component/**
+      serviceId: component
