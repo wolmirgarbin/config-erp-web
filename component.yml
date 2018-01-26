@@ -12,3 +12,6 @@ eureka:
 feign:
   hystrix:
     enabled: true
+
+logging:
+  file: application.log
