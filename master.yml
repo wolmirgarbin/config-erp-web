@@ -8,7 +8,8 @@ spring:
     password: root
   jpa:
     hibernate:
-      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
 
 keycloak:
   admin:
