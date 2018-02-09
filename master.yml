@@ -12,10 +12,8 @@ spring:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
 
 keycloak:
+  ribbon:
+    listOfServers: http://localhost:8080/auth
   admin:
     username: admin
     password: admin
-    
-keycloak:
-  ribbon:
-    listOfServers: http://localhost:8080/auth
