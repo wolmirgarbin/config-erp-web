@@ -9,3 +9,8 @@ spring:
   jpa:
     hibernate:
       naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+
+keycloak:
+  admin:
+    username: admin
+    password: admin
