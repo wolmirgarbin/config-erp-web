@@ -13,6 +13,9 @@ spring:
 
 keycloak:
   admin:
-    url: http://localhost:8080/auth
     username: admin
     password: admin
+    
+keycloak:
+  ribbon:
+    listOfServers: http://localhost:8080/auth
