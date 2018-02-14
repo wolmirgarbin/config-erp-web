@@ -14,7 +14,7 @@ spring:
     type: redis
   redis:
     host: 192.168.3.129
-    port: 6379        
+    port: 63799       
 
 keycloak:
   ribbon:
