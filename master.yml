@@ -23,3 +23,8 @@ keycloak:
     username: admin
     password: admin
   
+elastic:
+  cluster:
+    name: docker-cluster
+  host: 192.168.3.195
+  port: 9300
