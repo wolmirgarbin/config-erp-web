@@ -10,6 +10,11 @@ spring:
     hibernate:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+  cache:
+    type: redis
+  redis:
+    host: 192.168.3.129
+    port: 6379        
 
 keycloak:
   ribbon:
@@ -17,3 +22,4 @@ keycloak:
   admin:
     username: admin
     password: admin
+  
