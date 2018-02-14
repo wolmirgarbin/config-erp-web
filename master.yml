@@ -13,7 +13,7 @@ spring:
   cache:
     type: redis
   redis:
-    host: 192.168.3.129
+    host: 192.168.3.195
     port: 6379       
 
 keycloak:
