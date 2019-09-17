@@ -1,0 +1,21 @@
+security:
+  oauth2:
+    resource:
+      userInfoUri: http://192.168.3.129:8080/auth/realms/master/protocol/openid-connect/userinfo
+      
+management:
+  security:
+    enabled: false      
+    
+logging:
+  level:
+    org:
+      springframework:
+        security: debug
+        web: debug
+        data: debug
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.3.195:8761/eureka/

@@ -1,0 +1,8 @@
+server:
+  port: 8000
+    
+zuul:
+  routes:
+    component:
+      path: /component/**
+      serviceId: component
